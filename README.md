@@ -1,4 +1,7 @@
 ## **Map**
+[![Build status](https://ci.appveyor.com/api/projects/status/4d6nv4g9q6ageu3u?svg=true)](https://ci.appveyor.com/project/Pavka16/map)
+
+---
 
 ### **Легенда**
 
