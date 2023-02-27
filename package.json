@@ -1,0 +1,46 @@
+{
+  "name": "map",
+  "version": "1.0.0",
+  "description": "Вы решили упорядочить работу с ошибками в своём приложении — ввести цетрализованно числовой код ошибки и её описание. При генерации любых ошибок в коде приложения брать их из централизованного хранилища.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development",
+    "lint": "eslint .",
+    "test": "jest --coverage",
+    "coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pavka16/Map.git"
+  },
+  "author": "Pavel Nizovtsev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pavka16/Map/issues"
+  },
+  "homepage": "https://github.com/Pavka16/Map#readme",
+  "dependencies": {
+    "core-js": "^3.28.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.0",
+    "@babel/preset-env": "^7.20.2",
+    "babel-jest": "^29.4.3",
+    "babel-loader": "^9.1.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.7.3",
+    "eslint": "^8.34.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "jest": "^29.4.3",
+    "mini-css-extract-plugin": "^2.7.2",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
